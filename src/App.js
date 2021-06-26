@@ -1,12 +1,18 @@
-
+import React from 'react';
+import Dictionary from './Dictionary';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello
-      </header>
+      <div className = "container">
+        <header className="App-header text-center">
+          Dictionary
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+      </div>  
     </div>
   );
 }
