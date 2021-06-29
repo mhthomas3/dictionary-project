@@ -1,12 +1,16 @@
 import React, {useState} from 'react';
 import './Dictionary.css';
 import axios from "axios";
+import Results from './Results'
 
 export default function Dictionary(){
     const [keyWord, setKeyWord] = useState("");
+    const [apiResponse, setApiResponse] = useState(false);
+
+    console.log(apiResponse)
 
     function handleResponse(response){
-        console.log(response)
+        setApiResponse(response.data[0])
     }
 
     function handleKeyWordChange(event){
@@ -19,13 +23,14 @@ export default function Dictionary(){
         axios.get(url).then(handleResponse)
     }
 
-    return (
+    return(
         <div className = "Dictionary container align-self-center">
             <form onSubmit={search}>
                 <input type="search" autoFocus={true} onChange={handleKeyWordChange}/>
                 <input type="submit"/>
-
             </form>
+            <div className="Results">
+                <Results response={apiResponse}/>
+            </div>
         </div>
-    );
-}
+    );}
