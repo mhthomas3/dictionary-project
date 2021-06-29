@@ -7,8 +7,6 @@ export default function Dictionary(){
     const [keyWord, setKeyWord] = useState("");
     const [apiResponse, setApiResponse] = useState(false);
 
-    console.log(apiResponse)
-
     function handleResponse(response){
         setApiResponse(response.data[0])
     }
