@@ -1,0 +1,16 @@
+.phoneticSpelling{
+    font-size:16pt;
+}
+
+.pronunciationButton{
+    text-decoration: none;
+    margin:5px;
+    border: 1px solid black;
+    padding: 2px; 
+    border-radius:5px; 
+    color:black;
+}
+
+.pronunciationButton:hover{
+    color:blue;
+}
