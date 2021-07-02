@@ -1,13 +1,24 @@
+.Phonetics{
+    border:1px solid black;
+    border-radius: 4px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding:10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
 .phoneticSpelling{
     font-size:16pt;
+    margin:10px;
+    margin-bottom:10px;
 }
 
 .pronunciationButton{
     text-decoration: none;
-    margin:5px;
+    margin:10px;
     border: 1px solid black;
-    padding: 2px; 
-    border-radius:5px; 
+    padding: 6px 5px 6px 5px; 
+    border-radius:20px; 
     color:black;
 }
 

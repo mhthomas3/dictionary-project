@@ -23,12 +23,13 @@ export default function Dictionary(){
 
     return(
         <div className = "Dictionary container align-self-center">
-            <form onSubmit={search}>
-                <input type="search" autoFocus={true} onChange={handleKeyWordChange}/>
-                <input type="submit"/>
-            </form>
-            <div className="Results">
+            <section className="form">
+                <form onSubmit={search}>
+                    <input type="search" autoFocus={true} onChange={handleKeyWordChange} placeholder="Search for a word..." />
+                </form>
+            </section>
+            <section className="Results">
                 <Results response={apiResponse}/>
-            </div>
+            </section>
         </div>
     );}

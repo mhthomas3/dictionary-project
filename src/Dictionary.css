@@ -1,6 +1,11 @@
 .Dictionary{
     text-align:center;
 }
-.Results{
+.Dictionary .Results{
     text-align:left;
+}
+
+form input {
+    width: 100%;
+    opacity:.9;
 }
