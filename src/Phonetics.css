@@ -16,9 +16,10 @@
 
 .pronunciationButton{
     text-decoration: none;
-    margin:10px;
+    font-size:10pt;
+    margin:7px;
     border: 1px solid black;
-    padding: 6px 5px 6px 5px; 
+    padding: 3px 6px 3px 6px; 
     border-radius:20px; 
     color:black;
 }
