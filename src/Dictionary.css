@@ -9,3 +9,8 @@ form input {
     width: 100%;
     opacity:.9;
 }
+
+h1{
+    font-family:"Arapey", serif;
+    font-style:italic;
+  }

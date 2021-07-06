@@ -6,6 +6,7 @@ export default function Photos(props){
         return (
             <section className="Photos container">
                 <div className="row justify-content-center">
+                    <h1>Photos</h1>
                     {props.response.map(function(photo,index){
                         return(
                             <div className = "col-4" key = {index}>

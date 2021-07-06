@@ -11,3 +11,9 @@ img{
     margin: 6px;
     
 }
+
+h1{
+    font-family:"Arapey", serif;
+    font-style:italic;
+    font-size:25pt;
+  }

@@ -4,7 +4,7 @@ import Phonetics from './Phonetics';
 import './Results.css';
 
 export default function Results(props){
-console.log(props)
+
     if(props.response !== false){
         return(
             <div className="container">
